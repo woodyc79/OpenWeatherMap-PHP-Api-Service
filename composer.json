@@ -1,0 +1,17 @@
+{
+  "name": "rauchf/openweathermap-php-api-service",
+  "description": "",
+  "require": {
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "RauchF\\OpenweathermapPhpApiService\\": "Classes/"
+    }
+  },
+  "type": "typo3-cms-extension",
+  "keywords": ["TYPO3 CMS"],
+  "license": "",
+  "version": "0.0.1"
+}

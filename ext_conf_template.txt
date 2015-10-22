@@ -1,0 +1,5 @@
+# cat=basic; type=string; label=API key for OpenWeatherMap
+apiKey =
+
+# cat=basic; type=int+; label=Cache lifetime in seconds
+cacheTTL = 300

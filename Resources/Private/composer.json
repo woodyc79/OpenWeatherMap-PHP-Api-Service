@@ -1,0 +1,17 @@
+{
+  "name": "rauchf/openweathermap-php-api-service",
+  "config": {
+    "vendor-dir": "Vendor"
+  },
+  "require": {
+    "cmfcmf/openweathermap-php-api": "~2.0"
+  },
+  "require-dev": {
+  },
+  "authors": [
+    {
+      "name": "Felix Rauch",
+      "email": "rauch@skaiamail.de"
+    }
+  ]
+}

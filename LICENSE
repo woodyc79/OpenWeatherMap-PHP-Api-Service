@@ -1,0 +1,32 @@
+Copyright notice
+(c) 2015 Felix Rauch <rauch@skaiamail.de>
+
+This product is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 3 of the License, or
+(at your option) any later version.
+
+The GNU General Public License can be found at
+http://www.gnu.org/copyleft/gpl.html.
+
+This script is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+---------------------------------------------------------------------
+
+OpenWeatherMap-PHP-Api
+======================
+
+Copyright (c) 2013 Christian Flach
+
+MIT — Please see the LICENSE file distributed with the source code
+for further information regarding copyright and licensing.
+
+Please check out the following links to read about the usage policies
+and the license of OpenWeatherMap before using the service.
+- http://www.OpenWeatherMap.org
+- http://www.OpenWeatherMap.org/terms
+- http://www.OpenWeatherMap.org/appid
+
