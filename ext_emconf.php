@@ -2,7 +2,7 @@
 
 $EM_CONF[$_EXTKEY] = array(
 	'title' => 'OpenWeatherMap PHP API for TYPO3',
-	'description' => '',
+	'description' => 'A TYPO3 service extension to facilitate usage of cmfcmf/OpenWeatherMap-PHP-Api in your projects',
 	'category' => 'services',
 	'author' => 'Felix Rauch',
 	'author_email' => 'rauch@skaiamail.de',
