@@ -14,7 +14,7 @@ OpenWeatherMap PHP API for TYPO3
 .. only:: html
 
 	:Classification:
-		openweathermap_php_api
+		openweathermap_php_api_service
 
 	:Version:
 		|release|
@@ -23,9 +23,10 @@ OpenWeatherMap PHP API for TYPO3
 		en
 
 	:Description:
+		 A TYPO3 service extension to facilitate usage of cmfcmf/OpenWeatherMap-PHP-Api in your projects
 
 	:Keywords:
-		comma,separated,list,of,keywords
+		service,api,openweathermap,library
 
 	:Copyright:
 		2015
@@ -54,11 +55,8 @@ OpenWeatherMap PHP API for TYPO3
 	:glob:
 
 	Introduction/Index
-	User/Index
 	Administrator/Index
-	Configuration/Index
 	Developer/Index
 	KnownProblems/Index
-	ToDoList/Index
 	ChangeLog/Index
 	Targets

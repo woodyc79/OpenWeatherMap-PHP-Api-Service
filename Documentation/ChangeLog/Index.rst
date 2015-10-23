@@ -11,6 +11,14 @@
 ChangeLog
 =========
 
-Providing a change log chapter is optional. You can also refer
-users to the ChangeLog file inside the extension or to some repository's
-commit listing.
+0.0.2
+-----
+
+- Added documentation
+
+
+0.0.1
+-----
+
+- First release
+- OpenWeatherMap-PHP-Api version 2.0.9
