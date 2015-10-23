@@ -10,7 +10,7 @@
 conf.py:
   copyright: 2015
   project: OpenWeatherMap PHP API for TYPO3
-  version: 
+  version: 0.0.1 
   release: 
   intersphinx_mapping:
     t3tsref:
