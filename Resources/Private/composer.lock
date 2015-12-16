@@ -1,23 +1,24 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
     "hash": "1e3a3e8511a52eaf3779a3c1b41114dc",
+    "content-hash": "bab6373ad6f786eefa9b09a41e50d1c5",
     "packages": [
         {
             "name": "cmfcmf/openweathermap-php-api",
-            "version": "v2.0.9",
+            "version": "v2.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cmfcmf/OpenWeatherMap-PHP-Api.git",
-                "reference": "a7227302f7873b93373321a70ba5b50b330cda44"
+                "reference": "e02ad7d9402c911a721ce261270f7aee57e92617"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cmfcmf/OpenWeatherMap-PHP-Api/zipball/a7227302f7873b93373321a70ba5b50b330cda44",
-                "reference": "a7227302f7873b93373321a70ba5b50b330cda44",
+                "url": "https://api.github.com/repos/cmfcmf/OpenWeatherMap-PHP-Api/zipball/e02ad7d9402c911a721ce261270f7aee57e92617",
+                "reference": "e02ad7d9402c911a721ce261270f7aee57e92617",
                 "shasum": ""
             },
             "require": {
@@ -51,7 +52,7 @@
                 "weather",
                 "weather api"
             ],
-            "time": "2015-10-08 11:55:52"
+            "time": "2015-12-08 08:44:57"
         }
     ],
     "packages-dev": [],
