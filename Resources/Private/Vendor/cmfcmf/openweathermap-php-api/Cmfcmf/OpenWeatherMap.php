@@ -71,8 +71,14 @@ class OpenWeatherMap
     private $seconds;
 
     /**
+     * @var bool
+     */
+    private $wasCached = false;
+    
+    /**
      * @var FetcherInterface The url fetcher.
      */
+    
     private $fetcher;
 
     /**
@@ -534,7 +540,9 @@ class OpenWeatherMap
             /** @var \Cmfcmf\OpenWeatherMap\AbstractCache $cache */
             $cache = $this->cacheClass;
             $cache->setSeconds($this->seconds);
+            $this->wasCached=false;
             if ($cache->isCached($url)) {
+                $this->wasCached=true;
                 return $cache->getCached($url);
             }
             $result = $this->fetcher->fetch($url);
@@ -594,5 +602,15 @@ class OpenWeatherMap
             default:
                 throw new \InvalidArgumentException('Error: $query has the wrong format. See the documentation of OpenWeatherMap::getRawData() to read about valid formats.');
         }
+    }
+    
+    /**
+     * Returns whether or not the last result was fetched from the cache.
+     * 
+     * @return bool true if last result was fetched from cache, otherwise false.
+     */
+    public function wasCached()
+    {
+        return $this->wasCached;
     }
 }

@@ -6,15 +6,15 @@ $EM_CONF[$_EXTKEY] = array(
 	'category' => 'services',
 	'author' => 'Felix Rauch',
 	'author_email' => 'rauch@skaiamail.de',
-	'state' => 'beta',
+	'state' => 'stable',
 	'internal' => '',
 	'uploadfolder' => '0',
 	'createDirs' => '',
 	'clearCacheOnLoad' => 0,
-	'version' => '0.0.2',
+	'version' => '1.0.0',
 	'constraints' => array(
 		'depends' => array(
-			'typo3' => '6.2.0-6.2.99',
+			'typo3' => '6.2.0-7.6.99',
 		),
 		'conflicts' => array(
 		),
